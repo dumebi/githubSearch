@@ -1,1 +1,1 @@
-web: tsc && concurrently \"tsc -w\" \"lite-server\"
+web: tsc && concurrently "tsc -w" "lite-server"
