@@ -7,9 +7,9 @@ import 'rxjs/add/operator/map';
   selector: 'profile',
   templateUrl: 'profile.component.html',
 })
-export class ProfileComponent  { 
-private user[];
-private repos[];
+export class ProfileComponent  {
+private user = <any>[];
+private repos = <any>[];
 private username:string;
 	constructor(private _githubService:GithubService){
 		this.user=false;
